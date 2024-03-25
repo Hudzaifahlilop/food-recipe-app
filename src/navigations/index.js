@@ -13,7 +13,7 @@ const AppNavigation = () => {
     <NavigationContainer>
         <Stack.Navigator initialRouteName='Welcome' screenOptions={{headerShown:false}}>
             <Stack.Screen name="Welcome" component={WelcomeScreen}/>
-            <Stack.Screen name="Home" component={TestingAlquran}/>
+            <Stack.Screen name="Home" component={HomeScreen}/>
             <Stack.Screen name="Detail" component={RecipeDetailScreen}/>
         </Stack.Navigator>
     </NavigationContainer>

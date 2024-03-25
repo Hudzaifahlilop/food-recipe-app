@@ -28,7 +28,7 @@ const WelcomeScreen = () => {
       {/* image */}
       <Animated.View className="bg-white/20 rounded-full" style={{padding: ring2padding}}>
         <Animated.View className="bg-white/20 rounded-full" style={{padding: ring1padding}}>
-          <Image className="rounded-full" source={require('../asset/avatar.png')} style={{width: hp(20), height: hp(20)}}/>
+          <Image className="rounded-full" source={require('../asset/openingpict.png')} style={{width: hp(20), height: hp(20)}}/>
         </Animated.View>
       </Animated.View>
       {/* Tittle */}
